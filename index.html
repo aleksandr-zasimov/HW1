@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyPro 2077</title>
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <section class="header container">
+    <h1 class="header__title">Добро пожаловать <br> на мой сайт !</h1>
+    <h2 class="header__welcome">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></h2>
+    <a class="header__link" href="#"><button class="header__button" type="button">Поехали!</button>
+    </a>
+  </section>
+  <section class="cards container">
+    <div class="cards__game">
+      <h4 class="cards__title">Игра 1</h4>
+      <a class="cards__link" href="#"><img class="cards__img" src="./img/game-img-1.jpg" alt="img"></a>
+    </div>
+    <div class="cards__game">
+      <h4 class="cards__title">Игра 2</h4>
+      <a class="cards__link" href="#"><img class="cards__img" src="./img/game-img-2.jpg" alt="img"></a>
+    </div>
+    <div class="cards__game">
+      <h4 class="cards__title">Игра 3</h4>
+      <a class="cards__link" href="#"><img class="cards__img" src="./img/game-img-3.jpg" alt="img"></a>
+    </div>
+  </section>
+  <section class="games container">
+    <div class="games__box">
+      <h2 class="games__title">Времена года!</h2>
+      <p class="games__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы <br> узнаете к какому времени года он относится</p>
+      <a class="header__link" href="#"><button onclick="season ();" class="header__button" type="button">Играть</button></a>
+    </div>
+    <img class="games__img" src="./img/games-img.png" alt="img">
+  </section>
+  <section class="words container">
+    <img class="words__img" src="./img/words-img.png" alt="img">
+    <div class="words__box">
+      <h2 class="games__title words__title" >Запомни слова</h2>
+      <p class="games__text words__text">При нажатии на кнопку играть, вы увидите несколько слов, <br> которые вам необходимо запомнить.</p>
+      <a class="header__link" href="#"><button onclick="fruits ();" class="header__button" type="button">Играть</button></a>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>
